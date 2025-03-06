@@ -1,6 +1,6 @@
 {
   "name": "AutomationOps_CI_CD",
-  "projectId": "ef449d2d-9db8-403f-8a3f-93e9900d4910",
+  "projectId": "45f0a3d2-6d68-43ca-9e5e-d717a3a150a4",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
@@ -26,7 +26,7 @@
     "executionType": "Workflow",
     "readyForPiP": false,
     "startsInPiP": false,
-    "mustRestoreAllDependencies": true,
+    "mustRestoreAllDependencies": false,
     "pipType": "ChildSession"
   },
   "designOptions": {
@@ -40,6 +40,7 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
+    "modernBehavior": false,
     "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",

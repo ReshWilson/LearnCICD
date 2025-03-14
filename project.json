@@ -4,7 +4,8 @@
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.System.Activities": "[25.2.1]"
+    "UiPath.System.Activities": "[25.2.1]",
+    "UiPath.Testing.Activities": "[24.10.1]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -39,7 +40,15 @@
     "processOptions": {
       "ignoredFiles": []
     },
-    "fileInfoCollection": [],
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "63755b46-2f1a-40c9-9737-2368b1e5402e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase_Main_Logs.xaml"
+      }
+    ],
     "modernBehavior": false,
     "saveToCloud": false
   },
